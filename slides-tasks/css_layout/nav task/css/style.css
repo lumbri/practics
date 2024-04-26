@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body{
+  padding: 0;
+  margin:0;
+}
+nav {
+  position: static;
+  width: 100%;
+}
+
+a {
+  font-size: 2.5vw;
+  font-weight: 50;
+  text-decoration: none;
+  color: #3e3e3e;
+  margin: 0;
+  padding: 0.5em;
+  display: block;
+}
+
+input[type="checkbox"]:checked+label span:nth-child(2) {
+  display: none;
+}
+
+input[type="checkbox"]:checked+label span:nth-child(1) {
+  transform: rotate(-45deg);
+  position: absolute;
+}
+
+input[type="checkbox"]:checked+label span:nth-child(3) {
+  transform: rotate(45deg);
+  position: absolute;
+
+}
+
+input[type="checkbox"]:checked+label span:nth-child(3),
+input[type="checkbox"]:checked+label span:nth-child(1) {
+  top: 2px;
+  left: 0;
+}
+
+input[type="checkbox"]:checked+label+ul {
+  display: flex;
+
+}
+
+input[type="checkbox"] {
+  display: none;
+
+  margin-left: auto;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+label {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: 4;
+  width: 25px;
+}
+
+span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #027a87;
+  border: 0 none;
+  border-radius: 1rem;
+}
+
+ul {
+  display: none;
+  background-color: #d2e7f2;
+  list-style-type: none;
+  justify-content: center;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  line-height: 1;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  /* CSS styles for mobile devices */
+  ul {
+    padding-top: 10px;
+    justify-content: flex-start;
+    margin: 0;
+    flex-flow: column;
+    z-index: 3;
+    right: 0;
+    position: fixed;
+    width: 300px;
+    bottom: 0;
+    top: 0;
+  }
+
+}
+
+  @media only screen and (min-width: 768px) {
+
+    /* CSS styles for desktop devices */
+    label {
+      display: none;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      flex-grow: 1;
+    }
+
+  }

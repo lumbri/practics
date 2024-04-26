@@ -1,0 +1,5 @@
+1. Initialize two variables to store the larger and smaller numbers. Set them to None.
+2. Initialize a variable to store the difference. Set it to 0.
+3. Prompt the user to input numbers one by one until they indicate they are finished.
+4. Calculate the difference between the larger and smaller number.
+5. Display the result.

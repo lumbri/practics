@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  body{
+    padding: 0;
+    margin:0;
+    
+  }
+  h3{
+    margin: 6px;
+  }
+  p{
+    margin: 0;
+    
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    list-style-type: none;
+    justify-content: center;
+    margin: 0 40px;
+    padding: 0;
+  
+  }
+  li{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  img {
+    border-radius: 50px;
+    margin: 15px;
+    width: 250px;
+  }

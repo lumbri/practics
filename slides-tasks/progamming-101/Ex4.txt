@@ -1,0 +1,10 @@
+1. Prompt the user to choose a math operation (addition or subtraction).
+2. If the user chooses addition:
+    2.1. Initialize a variable to store the sum, set it to 0.
+    2.2. Prompt the user to input numbers one by one until they indicate they are finished.
+    2.3. Display the sum.
+3. If the user chooses subtraction:
+    3.1. Initialize two variables to store the larger and smaller numbers. Set them to None.
+    3.2. Initialize a variable to store the difference. Set it to 0.
+    3.3. Calculate the difference between the larger and smaller number.
+    3.4. Display the result.

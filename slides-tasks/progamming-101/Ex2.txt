@@ -1,0 +1,3 @@
+1. Initialize a variable to store the sum, set it to 0.
+2. Prompt the user to input numbers one by one until they indicate they are finished.
+3. Display the sum.

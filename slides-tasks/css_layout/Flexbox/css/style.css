@@ -17,9 +17,11 @@ body {
 
 
 ul {
-  display: flex;
-  
-  flex-wrap: wrap;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 0px;
   list-style-type: none;
   border: 5px solid #56626e;
   border-radius: 5px;

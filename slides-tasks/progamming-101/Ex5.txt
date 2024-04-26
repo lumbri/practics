@@ -1,0 +1,8 @@
+1. Initialize a dictionary or array to store the number of days in each month.
+2. Prompt the user to input the date (month and day).
+3. Read and store the input month and day.
+4. Initialize a variable to store the day of the year, set it to 0.
+5. Loop through the months from January to the input month (exclusive):
+     5.1. Add the number of days in each month to the day of the year variable.
+6. Add the input day to the day of the year variable.
+7. DIsplay the day of the year.

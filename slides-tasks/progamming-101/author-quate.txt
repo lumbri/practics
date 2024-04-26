@@ -1,0 +1,13 @@
+
+
+1.Prompt the user to input number:
+
+2.Divide this number by 2:
+3.Check If the result is integer,
+    display 0.
+4.Check If the number is not integer, 
+    display next number 1.
+5.Divide this result by 2.
+6. Repeat from 3 to 5 until result will be 0
+
+

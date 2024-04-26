@@ -1,0 +1,4 @@
+1. Initialize an empty list to store the digits.
+2. Prompt the user to input digits one by one until they indicate they are finished.
+3. Sort the list of digits in ascending order.
+4. Display the sorted list of digits.

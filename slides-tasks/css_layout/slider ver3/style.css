@@ -1,0 +1,68 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+
+}
+
+main ul {
+    justify-content: flex-start;
+    gap: 0;
+    transform: translateX(0);
+    transition: transform 500ms ease-in-out;
+}
+
+main li {
+    color: white;
+    background: red;
+    width: 100vw;
+    height: 50vh;
+    display: grid;
+    font-size: 3rem;
+    place-items: center;
+    flex-shrink: 0;
+
+}
+
+
+
+main li:first-of-type {
+    background-color: green;
+
+}
+
+main li:last-of-type {
+    background: blue;
+
+}
+
+#slide1:target ~ ul{
+    transform: translateX(0);
+
+}
+
+#slide2:target ~ ul {
+    transform: translateX(-100%);
+}
+
+#slide3:target ~ ul {
+    transform: translateX(-200%);
+}
